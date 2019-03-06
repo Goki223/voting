@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Glasanje!</h1>
+    <div>
+        <h3>Kandidat 1</h3>
+        <p>Broj na glasovi: <span id="kan1">0</span>  </p>
+       <p> <button onclick="vote(0)">Glasaj!</button ></p>
+    </div>
+    
+    <div>
+         <h3>Kandidat 2</h3>
+        <p>Broj na glasovi: <span id="kan2">0</span>  </p>
+        <p> <button onclick="vote(1)">Glasaj!</button > </p>
+    </div>
+       
+    <div> 
+           <h3>Kandidat 3</h3>
+        <p>Broj na glasovi: <span id="kan3">0</span>  </p>
+        <p><button onclick="vote(2)">Glasaj!</button ></p>
+    </div>
+    
+    <div>   
+        <h3>Kandidat 4</h3>
+        <p>Broj na glasovi: <span id="kan4">0</span>  </p>
+        <p><button onclick="vote(3)">Glasaj!</button ></p>
+    </div>
+
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
+     <script src="script.js"></script>
+</body>
+</html>
